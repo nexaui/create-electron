@@ -1,0 +1,54 @@
+{
+  "name": "nexa03",
+  "version": "1.0.0",
+  "description": "Aplikasi Electron Sederhana",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsdom": "^22.1.0",
+    "portfinder": "^1.0.32"
+  },
+  "build": {
+    "appId": "com.nexa03.app",
+    "productName": "Nexa03",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets"
+      },
+      {
+        "from": "public",
+        "to": "public"
+      }
+    ]
+  }
+}

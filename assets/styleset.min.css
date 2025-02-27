@@ -1,0 +1,314 @@
+
+.code-preview {
+  border-radius: var(--nx-card-border-radius);
+  padding: 1rem;
+}
+/* Preview box untuk filter images */
+.preview-box .nx-row {
+  gap: 1rem;
+  text-align: center;
+}
+
+.preview-box .nx-row small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Example Block Styles */
+.example-block {
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.example-preview {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.example-code {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.example-code percode {
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    .example-block {
+        border-color: #2c3034;
+    }
+
+    .example-preview {
+        border-color: #2c3034;
+    }
+
+    .example-code {
+        background: #1a1d20;
+    }
+}
+
+
+/* Preview Box Styling */
+.preview-box {
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+
+  .nx-tabcode { 
+    background-color:#2D2D2D;
+    color:#fff;
+     padding-top: 10px;
+     border-radius: 3px;
+}
+.nx-tabcode-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nx-tabcode-code h3 {
+    margin: 0;
+    color: #fff;
+}
+.nx-tabcode-buttons {
+    display: flex;
+    gap: 5px;
+}
+.nx-tabcode-btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 5px;
+    color:#fff;
+}
+
+.nx-tabcode-btn.active {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.nx-tabcode-pane {
+    display: none;
+}
+
+.nx-tabcode-pane.active {
+    display: block;
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #f8f8f2;
+    background: none;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding-top: 0em;
+    padding-left: 1em;
+    overflow: auto;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background:#27282200;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #8292a2;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+    color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+    color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+    color: #e6db74;
+}
+
+.token.keyword {
+    color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+    color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+pre code.hljs{display:block;overflow-x:auto;padding:0em}code.hljs{padding:3px 5px}.hljs{color:#abb2bf;background:#282c34}.hljs-comment,.hljs-quote{color:#5c6370;font-style:italic}.hljs-doctag,.hljs-formula,.hljs-keyword{color:#c678dd}.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#e06c75}.hljs-literal{color:#56b6c2}.hljs-addition,.hljs-attribute,.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#98c379}.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#d19a66}.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#61aeee}.hljs-built_in,.hljs-class .hljs-title,.hljs-title.class_{color:#e6c07b}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-link{text-decoration:underline}
+ .hljs {
+            color: #abb2bf;
+        }
+        
+        .hljs-keyword {
+            color: #c678dd;
+        }
+        
+        .hljs-string {
+            color: #98c379;
+        }
+        
+        .hljs-comment {
+            color: #5c6370;
+            font-style: italic;
+        }
+
+    /*  ui-logger  */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    #ui-logger::-webkit-scrollbar {
+        width: 6px;
+    }
+    #ui-logger::-webkit-scrollbar-track {
+        background: #333;
+    }
+    #ui-logger::-webkit-scrollbar-thumb {
+        background: #666;
+        border-radius: 3px;
+    }
+
+.demo-section {
+    margin-top:30px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #f8f9fa;
+}
+
+
+
+
+
+body.dark-mode-grid .demo-section {
+    color: var(--text-primary);
+    margin-top: 30px;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e012;
+    border-radius: 4px;
+    background: #2a2a2a70;
+}
+
+
+body.dark-mode-grid .nexa-pagination .current {
+    background-color: #007bff !important;
+    color: white;
+    border-color: #007bff;
+}
+
+body.dark-mode-grid .nexa-pagination .page-link {
+    background-color: #d1d1d1;
+}    
+
+body.dark-mode-grid .nx-close {
+    color: #fff5f5;
+}
+
+
+body.dark-mode-grid .form-nexa label {
+    color: var(--text-color);
+
+}
+body.dark-mode-grid .form-nexa-control {
+    color: var(--text-color);
+    background-color: #333;
+    background-clip: padding-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}

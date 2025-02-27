@@ -1,0 +1,81 @@
+/*!
+ * Ngorei NesxaUI  v1.1.5 (https://ngorei.com/)
+ * Copyright 2024-2025 The Ngorei NesxaUI Authors
+ * Licensed under MIT (https://github.com/ngorei/main/LICENSE)
+ */
+@import url("https://cdn.jsdelivr.net/gh/TatiyeNgorei/lib@master/icon/icon.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("./fonts.css");
+@import url("./css/grid.css");
+@import url("./css/animate.css");
+@import url("./css/alerts.css");
+@import url("./css/accordion.css");
+@import url("./css/avatar.css");
+@import url("./css/badge.css");
+@import url("./css/breadcrumb.css");
+@import url("./css/btngroup.css");
+@import url("./css/button.css");
+@import url("./css/cards.css");
+@import url("./css/carousel.css");
+@import url("./css/collapse.css");
+@import url("./css/dropdown.css");
+@import url("./css/footer.css");
+@import url("./css/form.css");
+@import url("./css/grid.css");
+@import url("./css/images.css");
+@import url("./css/lightbox.css");
+@import url("./css/listgroup.css");
+@import url("./css/mediaobject.css");
+@import url("./css/menu.css");
+@import url("./css/modal.css");
+@import url("./css/navstabs.css");
+@import url("./css/offcanvas.css");
+@import url("./css/popovers.css");
+@import url("./css/progress.css");
+@import url("./css/scroll.css");
+@import url("./css/scrollspy.css");
+@import url("./css/search.css");
+@import url("./css/sortable.css");
+@import url("./css/spinners.css");
+@import url("./css/stats.css");
+@import url("./css/sticky.css");
+/*@import url('./css/style.css');*/
+@import url("./css/table.css");
+@import url("./css/tabs.css");
+@import url("./css/thumbnav.css");
+@import url("./css/toasts.css");
+@import url("./css/tooltips.css");
+@import url("./css/video.css");
+@import url("./css/terminal.css");
+@import url("./css/header.css");
+@import url("./css/navigasi.css");
+@import url("./css/navbar.css");
+@import url("./css/pagination.css");
+
+/* Base styles */
+:root {
+  --primary: #007bff;
+  --success: #28a745;
+  /* ... other variables */
+}
+
+/* Component styles */
+.nx-btn {
+  /* ... */
+}
+.form-nexa-control {
+  /* ... */
+}
+.nx-select {
+  /* ... */
+}
+.nx-checkbox {
+  /* ... */
+}
+.nx-alert {
+  /* ... */
+}
+.nx-card {
+  /* ... */
+}
+/* ... styles untuk komponen lainnya */
