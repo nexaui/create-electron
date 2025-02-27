@@ -56,7 +56,7 @@ my-app/
 
 ## Dokumentasi
 
-Kunjungi [dokumentasi lengkap](https://tatiye.net/doc) untuk informasi lebih detail.
+Kunjungi [dokumentasi lengkap](https://nexaui.net/doc/v4.0.5) untuk informasi lebih detail.
 
 ## License
 
