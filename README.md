@@ -1,4 +1,4 @@
-# Create Nexa Electron
+# Create NexaUI Electron
 
 Tool untuk membuat aplikasi desktop dengan Nexa Electron Framework.
 
