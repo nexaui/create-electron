@@ -1,4 +1,4 @@
-# Create NexaUI Electron
+# Create Nexa Electron
 
 Tool untuk membuat aplikasi desktop dengan Nexa Electron Framework.
 
@@ -48,13 +48,10 @@ Setelah proses pembuatan selesai, struktur proyek Anda akan terlihat seperti ini
 
 ```
 my-app/
-  ├── scripts/
-  │   ├── assets/
-  │   ├── public/
-  │   ├── main.js
-  │   └── preload.js
-  ├── package.json
-  └── README.md
+ ├── assets/
+ ├── public/
+ ├── main.js
+ └── preload.js
 ```
 
 ## Dokumentasi
